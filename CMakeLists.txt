@@ -3,4 +3,6 @@ project(markdown_renderer C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(markdown_renderer main.c)
+add_executable(markdown_renderer main.c
+        file.h
+        file.c)
